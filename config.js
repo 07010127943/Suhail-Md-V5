@@ -3,7 +3,7 @@ if (fs.existsSync('.env')) require('dotenv').config({ path: __dirname+'/.env' })
 
 
 //═══════[Required Variables]════════\\
-global.audio=process.env.GITHUB||"" ;  
+global.audio=process.env.GITHUB||"https://youtube.com/SuhailTechInfo/Suhail-Md" ;  
 global.video= "" ;
 global.port =process.env.PORT
 global.appUrl=process.env.APP_URL || ""                       // put your app url here,
